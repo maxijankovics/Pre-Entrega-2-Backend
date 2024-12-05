@@ -1,7 +1,7 @@
 import express from 'express';
 import { createServer } from 'http';
 import { Server } from 'socket.io';
-import ChatManager from './chatManager.js';
+import ChatManager from './src/managers/chatManager.js';
 
 const app = express();
 const httpServer = createServer(app);
